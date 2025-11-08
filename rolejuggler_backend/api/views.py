@@ -166,7 +166,7 @@ from django.db import transaction
 import re
 
 # Configure Gemini API
-GEMINI_API_KEY = "AIzaSyBlv4HyCpNILwpj21iohOrz1JCW5QEQNgk"
+GEMINI_API_KEY = 
 genai.configure(api_key=GEMINI_API_KEY)
 
 def extract_meeting_datetime(subject):
