@@ -1,54 +1,54 @@
-# 🤹 Role-Juggler
+# Role-Juggler
 
 > **Task management software designed for remote workers with multiple job titles to effectively manage each role with ease.**
 
 ---
 
-## 🌟 Overview
+## Overview
 
 For remote workers managing multiple concurrent jobs or roles, keeping context clear and avoiding cross-role confusion is a constant struggle. **Role-Juggler** solves this by providing a unified task, time, and calendar management system tailored to separate, organize, and prioritize tasks distinctively by job/role, while offering intelligent AI insights to boost productivity.
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-*   **💼 Multi-Role Workspace Management**
+*   **Multi-Role Workspace Management**
     *   Separate your workspaces by company and role (e.g., frontend developer, project manager, consultant).
     *   Apply distinct, harmonic color-coding to each job for instant visual distinction across all views.
-*   **📋 Unified Kanban Board**
-    *   A drag-and-drop board mapping task workflows (`To Do` ➔ `In Progress` ➔ `Done`).
+*   **Unified Kanban Board**
+    *   A drag-and-drop board mapping task workflows (`To Do` -> `In Progress` -> `Done`).
     *   Combined cross-role view or filter by a specific role.
     *   Create tasks with rich attributes: deadline, priority, description, and job association.
-*   **⏱️ Active Task Time Tracking**
+*   **Active Task Time Tracking**
     *   Interactive session tracker that enables starting, pausing, resuming, and completing sessions.
     *   Aggregates total time spent per task to provide precise work summaries.
-*   **🗓️ Time Table / Calendar**
+*   **Time Table / Calendar**
     *   A clean, interactive overview of tasks and deadlines to map out your weekly commitments across roles.
-*   **🧠 AI-Powered Productivity Insights & Daily Summaries**
+*   **AI-Powered Productivity Insights & Daily Summaries**
     *   **Task Insights:** Utilizes Google Gemini (`gemini-2.0-flash-lite`) to generate next steps, blockers, estimated time left, and progress based on task details and personal notes.
     *   **Daily Summaries:** Uses Gemini (`gemini-pro`) to evaluate completed tasks and active items, giving you a productivity score, custom daily summaries, and suggestions for tomorrow.
-*   **📝 Interactive Sticky Notes**
+*   **Interactive Sticky Notes**
     *   Color-coded quick-notes/scratchpads per workspace to capture sudden ideas or transient task details.
-*   **✉️ Gmail Integration**
+*   **Gmail Integration**
     *   Fetch daily updates directly from your connected work emails.
     *   Auto-detect meeting requests and action items from emails, feeding them directly into the system.
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Component | Technology | Description |
 | :--- | :--- | :--- |
-| **Frontend** | **React.js (v19)** | Modern SPA architecture with interactive hook states. |
-| **Icons** | **Lucide React** | Sleek, modern outline icons. |
-| **Visualization** | **Recharts** | Dynamic graphs for tracking task analytics and time-spent history. |
-| **Backend** | **Django / Python** | Robust REST API powered by Django REST Framework (DRF). |
-| **Database** | **SQLite3** | Lightweight local database for session tracking and user data. |
-| **AI Layer** | **Google Gemini API** | Integration with generative models for intelligent workflow assistance. |
+| **Frontend** | React.js (v19) | Modern SPA architecture with interactive hook states. |
+| **Icons** | Lucide React | Sleek, modern outline icons. |
+| **Visualization** | Recharts | Dynamic graphs for tracking task analytics and time-spent history. |
+| **Backend** | Django / Python | Robust REST API powered by Django REST Framework (DRF). |
+| **Database** | SQLite3 | Lightweight local database for session tracking and user data. |
+| **AI Layer** | Google Gemini API | Integration with generative models for intelligent workflow assistance. |
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Role-Juggler/
@@ -70,7 +70,7 @@ Role-Juggler/
 
 ---
 
-## 🚀 Setup & Installation
+## Setup & Installation
 
 ### 1. Prerequisites
 *   Node.js (v18+)
@@ -147,7 +147,7 @@ Role-Juggler/
 
 ---
 
-## 📸 App Screenshots
+## App Screenshots
 
 *Showcase of the Role-Juggler interface:*
 
@@ -159,11 +159,9 @@ Role-Juggler/
 | :---: | :---: |
 | ![AI Insights](docs/screenshots/insights.png) | ![Time Table](docs/screenshots/timetable.png) |
 
-> 💡 *Note: If you have screenshot images for these layouts, place them in the `/docs/screenshots/` folder matching the filenames above to render them in your repository.*
-
 ---
 
-## ⚙️ Integrations Setup
+## Integrations Setup
 
 ### Gmail Integration
 1. Go to your **Profile** tab in the dashboard.
