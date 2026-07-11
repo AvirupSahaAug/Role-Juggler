@@ -151,9 +151,9 @@ Role-Juggler/
 
 *Showcase of the Role-Juggler interface:*
 
-| Dashboard Overview | Kanban Workspaces |
+| Analytics & Progress | Kanban Workspaces |
 | :---: | :---: |
-| ![Dashboard Overview](docs/screenshots/dashboard.png) | ![Kanban Board](docs/screenshots/kanban.png) |
+| ![Analytics Overview](docs/screenshots/analytics.png) | ![Kanban Board](docs/screenshots/kanban.png) |
 
 | AI Insights & Summary | Time Table Schedule |
 | :---: | :---: |
